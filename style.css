@@ -78,6 +78,29 @@ h2 {
 /* COMPONENT STYLES */
 /* ------------------------ */
 
+/* NavBar */
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  width: 200px;
+  height: 120px;
+}
+.option-list {
+  display: flex;
+  align-items: center;
+  gap: 4vh;
+}
+.option-list li {
+  list-style: none;
+  font-weight: 600;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.option-list li:hover {
+  color: #099268;
+}
 /* HEADER */
 header {
   display: grid;
